@@ -116,6 +116,24 @@ Expected performance on MNIST:
 
 Training typically converges within 30-50 epochs with the default hyperparameters.
 
+## Visualizations
+
+### Sample MNIST Images
+![Sample Images](plots/sample_images.png)
+*Sample handwritten digits from the MNIST dataset*
+
+### Learning Curves
+![Learning Curves](plots/learning_curves.png)
+*Training and validation loss/accuracy over 50 epochs. The model converges smoothly with minimal overfitting.*
+
+### Misclassification Analysis
+![Misclassified Images](plots/misclassified_images.png)
+*Examples of incorrectly classified digits showing predicted/true labels. Most errors occur on visually ambiguous digits.*
+
+### Confusion Matrix
+![Confusion Matrix](plots/confusion_matrix.png)
+*Confusion matrix showing classification performance across all digit classes. Darker blue indicates more predictions.*
+
 ## Dataset
 
 **MNIST** (Modified National Institute of Standards and Technology)
